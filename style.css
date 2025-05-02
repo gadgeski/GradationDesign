@@ -65,3 +65,54 @@ nav.nav ul.item li.list {
 nav.nav ul.item li.list a {
   padding-right: 1rem;
 }
+
+ul.sns-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+ul.sns-container li.list {
+  padding-right: 1rem;
+}
+
+ul.sns-container li.list img.icon-X {
+  width: 25px;
+  height: auto;
+}
+
+ul.sns-container li.list img.icon-instagram {
+  width: 20px;
+  height: auto;
+}
+
+p.copyright {
+  color: #fff;
+  background-color: #3a94ed;
+  padding: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  div.logo {
+    margin: 0 auto 1.5rem;
+  }
+
+  nav.nav {
+    margin-bottom: 1.5rem;
+  }
+  nav.nav ul.item {
+    flex-wrap: wrap;
+  }
+
+  nav.nav ul.item li.list {
+    padding: 0 0.5rem 0.8rem;
+  }
+
+  ul.sns-container {
+    margin-bottom: 2rem;
+  }
+
+  ul.sns-container li.list {
+    padding: 0 0.5rem;
+  }
+}
